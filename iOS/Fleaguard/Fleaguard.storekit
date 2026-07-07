@@ -1,0 +1,41 @@
+{
+  "identifier" : "Fleaguard",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "fleaguard_group",
+      "localizations" : [],
+      "name" : "Fleaguard Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "fleaguard_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Auto-calculated next-treatment reminders per product duration",
+              "displayName" : "Fleaguard Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "fleaguard_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Fleaguard Pro Monthly",
+          "subscriptionGroupID" : "fleaguard_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
